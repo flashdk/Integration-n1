@@ -1,9 +1,18 @@
-.bloc-contenu-design{
-  margin-top: 145px;
-}
-.bloc-contenu-design P{
-  margin-bottom: 35px;
-}
-.bloc-contenu-design div{
-  height: 140px;
+.session-design{
+	background:transparent url('../images/Layer-8.jpg') left top no-repeat;
+	background-size: 100% 100%;
+	color: white;
+	.second-img{
+		background:transparent url('../images/Layer-7.jpg') right top no-repeat;
+		background-size: 100% 100%;
+	}
+	.contenaire{
+		height: 490px;
+	}
+	.bloc-contenu-design{
+	  margin-top: 145px;
+	}
+	.bloc-contenu-design P{
+	  margin-bottom: 35px;
+	}
 }

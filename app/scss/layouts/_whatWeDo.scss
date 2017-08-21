@@ -5,17 +5,26 @@
   text-align: center;
   margin: 90px 0 100px 0;
 }
-.text{
-  border: 1px solid black;
-}
 .icon-content, .text{
   float: left;
+  .icon{
+    float: right;
+  }
 }
 .btn-whatWeDo{
   text-align: center;
   margin-top: 105px;
 }
-.text-content{
-  color: $couleur-gris;
-  font-size: $fs18;
+.first-line{
+  margin-bottom: 85px;
+}
+.text{
+  padding: 0 50px;
+  h2{
+      margin-top: 0;
+  }
+  .text-content{
+     color: $couleur-gris;
+     font-size: $fs18;
+   }
 }
