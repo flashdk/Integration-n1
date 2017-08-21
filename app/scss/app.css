@@ -1,0 +1,186 @@
+/* line 1, base/_base.scss */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+/* line 6, base/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 100%; }
+
+/* line 1, base/_reset.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+/* line 7, base/_reset.scss */
+.a {
+  text-decoration: none;
+  color: black; }
+
+/* line 1, layouts/_header.scss */
+.header {
+  background: transparent url("../images/header-bg.jpg") left top no-repeat;
+  background-size: 100% 100%; }
+
+/* line 5, layouts/_header.scss */
+.header-top {
+  padding: 52px; }
+  /* line 7, layouts/_header.scss */
+  .header-top .logo {
+    float: left;
+    font-size: 35px;
+    font-weight: bold; }
+    /* line 11, layouts/_header.scss */
+    .header-top .logo .a span {
+      color: #969591;
+      font-family: "Open Sans", Serif;
+      font-weight: normal; }
+  /* line 17, layouts/_header.scss */
+  .header-top .main-menu-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right; }
+    /* line 22, layouts/_header.scss */
+    .header-top .main-menu-ul li {
+      display: inline-block;
+      padding: 0 15px; }
+      /* line 25, layouts/_header.scss */
+      .header-top .main-menu-ul li a {
+        font-size: 18px; }
+
+/* line 31, layouts/_header.scss */
+.header-content {
+  margin-top: 218px;
+  text-align: center; }
+  /* line 34, layouts/_header.scss */
+  .header-content h2 {
+    font-size: 48px; }
+  /* line 37, layouts/_header.scss */
+  .header-content p {
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: #969591; }
+  /* line 42, layouts/_header.scss */
+  .header-content a {
+    font-size: 18px; }
+
+/* line 46, layouts/_header.scss */
+.space {
+  height: 360px; }
+
+/* line 49, layouts/_header.scss */
+.scroll-down {
+  width: 20px;
+  height: 50px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 40%; }
+
+/* line 59, layouts/_header.scss */
+.scroll-down-text {
+  color: white;
+  text-align: center;
+  margin: 10px 0 0 0; }
+
+/* line 1, layouts/_codeDesignSection.scss */
+.bloc-contenu-design {
+  margin-top: 145px; }
+
+/* line 4, layouts/_codeDesignSection.scss */
+.bloc-contenu-design P {
+  margin-bottom: 35px; }
+
+/* line 7, layouts/_codeDesignSection.scss */
+.bloc-contenu-design div {
+  height: 140px; }
+
+/* line 1, layouts/_whatWeDo.scss */
+.what-we-do {
+  clear: both; }
+
+/* line 4, layouts/_whatWeDo.scss */
+.what-we-do .contenaire h1 {
+  text-align: center;
+  margin: 90px 0 100px 0; }
+
+/* line 8, layouts/_whatWeDo.scss */
+.text {
+  border: 1px solid black; }
+
+/* line 11, layouts/_whatWeDo.scss */
+.icon-content, .text {
+  float: left; }
+
+/* line 14, layouts/_whatWeDo.scss */
+.btn-whatWeDo {
+  text-align: center;
+  margin-top: 105px; }
+
+/* line 18, layouts/_whatWeDo.scss */
+.text-content {
+  color: #969591;
+  font-size: 18px; }
+
+/* line 1, modules/_button.scss */
+.btn-degrade {
+  background: linear-gradient(to bottom right, #49007c, #c00085);
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1em;
+  font-family: "Open Sans", Serif;
+  text-decoration: none;
+  padding: 8px; }
+  /* line 10, modules/_button.scss */
+  .btn-degrade:hover {
+    font-size: 1.15em; }
+
+/* line 14, modules/_button.scss */
+.btn-primary {
+  border-radius: 4px;
+  background-color: #1E31E2;
+  color: white;
+  font-size: .8em;
+  padding: 8px;
+  text-decoration: none; }
+  /* line 22, modules/_button.scss */
+  .btn-primary:hover {
+    background-color: #4252e7; }
+
+/* line 3, modules/_grid.scss */
+.col-1 {
+  width: 25%;
+  float: left; }
+
+/* line 3, modules/_grid.scss */
+.col-2 {
+  width: 50%;
+  float: left; }
+
+/* line 3, modules/_grid.scss */
+.col-3 {
+  width: 75%;
+  float: left; }
+
+/* line 3, modules/_grid.scss */
+.col-4 {
+  width: 100%;
+  float: left; }
+
+/* line 9, modules/_grid.scss */
+.contenaire {
+  width: 85%;
+  margin: auto; }
+
+/*# sourceMappingURL=app.css.map */

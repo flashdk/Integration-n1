@@ -1,0 +1,16 @@
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: $fs18;
+	line-height: 100%;
+}
+@mixin coul-degrade($coul1, $coul2){
+	background: linear-gradient(to bottom right, $coul1, $coul2);
+}

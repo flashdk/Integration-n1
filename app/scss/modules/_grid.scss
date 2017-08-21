@@ -1,0 +1,12 @@
+$largeurColonne:$colWide / $nbColonne;
+@for $i from 1 to ($nbColonne + 1){
+	.col-#{$i}{
+		width: $largeurColonne * $i;
+
+		float: left;
+	}
+}
+.contenaire{
+	width: $contenaire;
+	margin: auto;
+}

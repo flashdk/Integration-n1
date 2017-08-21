@@ -1,0 +1,21 @@
+.what-we-do{
+  clear: both;
+}
+.what-we-do .contenaire h1{
+  text-align: center;
+  margin: 90px 0 100px 0;
+}
+.text{
+  border: 1px solid black;
+}
+.icon-content, .text{
+  float: left;
+}
+.btn-whatWeDo{
+  text-align: center;
+  margin-top: 105px;
+}
+.text-content{
+  color: $couleur-gris;
+  font-size: $fs18;
+}

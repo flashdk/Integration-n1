@@ -1,0 +1,23 @@
+.btn-degrade{
+	@include coul-degrade($btn-violet-deg, $btn-blue-deg);
+	border-radius: 20px;
+	color: white;
+	font-size: 1.1em;
+	font-family: "Open Sans", Serif;
+	text-decoration: none;
+	padding: $btn-padding;
+
+	&:hover{
+		font-size: 1.15em;
+	}
+}
+.btn-primary{
+	border-radius: 4px;
+	background-color: #1E31E2;
+	color: white;
+	font-size: .8em;
+	padding: $btn-padding;
+	text-decoration: none;
+
+	&:hover{background-color: lighten(#1E31E2, 8%)}
+}
