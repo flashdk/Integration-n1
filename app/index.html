@@ -39,17 +39,17 @@
 		</div>		
 	</header>
 	<div class="session-design">
-		<div class="contenaire">
-			<div class="col-2 bloc-contenu-design first-img">
-				<h2>Best<span>Design</span> </h2>
-				<p class="content">
-					Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
-					Curabitur ullamcorper auctor mauris, placerat fermentum lectus vulputate sed.
-					Phasellus vestibulum sit amet dolor eget eleifend.
-				</p>
-				<a class="btn-degrade" href="#">Ask for price</a>
-			</div>
-			<div class="col-2 bloc-contenu-design second-img">
+		<div class="col-2 col-left bloc-contenu-design first-img">
+			<h2>Best<span>Design</span> </h2>
+			<p class="content">
+				Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
+				Curabitur ullamcorper auctor mauris, placerat fermentum lectus vulputate sed.
+				Phasellus vestibulum sit amet dolor eget eleifend.
+			</p>
+			<a class="btn-degrade" href="#">Ask for price</a>
+		</div>
+		<div class="col-2 col-right bloc-contenu-design second-img">
+			<div class="contenaire">
 				<h2>Best<span>Code</span> </h2>
 				<p class="content">
 					Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
@@ -86,7 +86,7 @@
 					</div>
 					<div class="col-3">
 						<div class="text">
-							<h2>Web Design</h2>
+							<h2>Web applications</h2>
 							<div class="text-content">
 								Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
 								Curabitur ullamcorper auctor mauris, placerat fermentum.
@@ -102,7 +102,7 @@
 					</div>
 					<div class="col-3">
 						<div class="text">
-							<h2>Web Design</h2>
+							<h2>Web paiting</h2>
 							<div class="text-content">
 								Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
 								Curabitur ullamcorper auctor mauris, placerat fermentum.
@@ -118,7 +118,7 @@
 					</div>
 					<div class="col-3">
 						<div class="text">
-							<h2>Web Design</h2>
+							<h2>Desktop application</h2>
 							<div class="text-content">
 								Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
 								Curabitur ullamcorper auctor mauris, placerat fermentum.
@@ -132,5 +132,91 @@
 			</div>
 		</div>
 	</div>
+	<div class="carousel">
+		<!-- <div class="arrow-left"><</div>
+		<div class="arrow-right">></div>-->
+		<img class="slider" src="images/Layer-12.jpg" alt="slider">
+		<div class="slider img-center">
+			<img class="" src="images/Layer-14.jpg" alt="slider" width="449">
+			<div class="slider filter"></div>
+			<div class="img-center-text">
+				<h2>Nepture template</h2>
+				<p class="img-text-content">
+					Aliquam sagittis neque in lectus semper,
+					nec elementum arcu scelerisque. Curabitur ullamcorper auctor mauris,
+					placerat fermentum.
+				</p>
+				<a class="btn-degrade slider-btn" href="#">watch more</a>
+			</div>
+		</div>
+		<img class="slider" src="images/Layer-13.jpg" alt="slider">
+	</div>
+	<div class="about-as">
+		<h1>About us!</h1>
+		<p class="text-descriotion">
+			Aliquam sagittis neque in lectus semper, nec elementum arcu scelerisque.
+			Curabitur ullamcorper auctor mauris, placerat fermentum.
+		</p>
+		<p class="container-cadre">
+			<div class="col-1">
+				<div class="cadre">
+					<img class="avatar" src="images/354.jpg" alt="image d'avatar">
+					<h2 class="nom-avatar">john Doe</h2>
+					<div class="description">
+						Curabitur ullamcorper auctor mauris, placerat fermentum
+					</div>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="cadre">
+					<img class="avatar" src="images/téléchargement%20(1).jpg" alt="image d'avatar">
+					<h2 class="nom-avatar">john Doe</h2>
+					<div class="description">
+						Curabitur ullamcorper auctor mauris, placerat fermentum
+					</div>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="cadre">
+					<img class="avatar" src="images/images%20(2).jpg" alt="image d'avatar">
+					<h2 class="nom-avatar">john Doe</h2>
+					<div class="description">
+						Curabitur ullamcorper auctor mauris, placerat fermentum
+					</div>
+				</div>
+			</div>
+			<div class="col-1">
+				<div class="cadre">
+					<img class="avatar" src="images/téléchargement%20(2).jpg" alt="image d'avatar">
+					<h2 class="nom-avatar">john Doe</h2>
+					<div class="description">
+						Curabitur ullamcorper auctor mauris, placerat fermentum
+					</div>
+				</div>
+			</div>
+		</p>
+		<div class="watch-more">
+			<a class="btn-degrade" href="#">watch more</a>
+		</div>
+	</div>
+	<footer>
+		<div class="map" id="map"></div>
+		<div class="text-info">
+			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			Try awsome tool for desgners symu.co
+		</div>
+	</footer>
+
+	<script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
 </html>

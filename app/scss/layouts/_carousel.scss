@@ -1,0 +1,36 @@
+.carousel{
+  padding-top: 100px;
+  .slider.img-center{
+    position: relative;
+  }
+
+  .slider{
+    float: left;
+    width: 449px;
+    text-align: center;
+    color: white;
+    .img-center-text{
+      position: absolute;
+      left: 0;top: 70px;
+      p{
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .slider.filter{
+    position: absolute;
+    left: 0;top: 0;
+    height: 337px;
+    background-color: rgba(94, 94, 94, 0.5);
+  }
+
+  /*
+  .arrow-left, .arrow-right{
+    position: relative;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+  }*/
+}

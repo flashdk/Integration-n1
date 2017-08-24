@@ -35,16 +35,6 @@ html, body {
       color: #969591;
       font-family: "Open Sans", Serif;
       font-weight: normal; }
-  .header-top .main-menu-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    float: right; }
-    .header-top .main-menu-ul li {
-      display: inline-block;
-      padding: 0 15px; }
-      .header-top .main-menu-ul li a {
-        font-size: 18px; }
 
 .header-content {
   margin-top: 218px;
@@ -74,28 +64,29 @@ html, body {
 .scroll-down-text {
   color: white;
   text-align: center;
-  margin: 10px 0 0 0; }
+  padding: 20px 0 100px 0; }
 
 .session-design {
-  background: transparent url("../images/Layer-8.jpg") left top no-repeat;
-  background-size: 100% 100%;
   color: white; }
+  .session-design .first-img {
+    background: transparent url("../images/Layer-8.jpg") right top no-repeat;
+    background-size: 100% 100%; }
   .session-design .second-img {
     background: transparent url("../images/Layer-7.jpg") right top no-repeat;
     background-size: 100% 100%; }
-  .session-design .contenaire {
-    height: 490px; }
   .session-design .bloc-contenu-design {
-    margin-top: 145px; }
-  .session-design .bloc-contenu-design P {
-    margin-bottom: 35px; }
+    padding: 140px 0; }
+  .session-design .col-left P, .session-design .col-left h2, .session-design .col-left a {
+    margin: 0 50px 35px 100px; }
+  .session-design .col-right P, .session-design .col-right h2, .session-design .col-right a {
+    margin: 0 100px 35px 0; }
 
 .what-we-do {
   clear: both; }
 
 .what-we-do .contenaire h1 {
   text-align: center;
-  margin: 90px 0 100px 0; }
+  padding: 90px 0 100px 0; }
 
 .icon-content, .text {
   float: left; }
@@ -104,7 +95,7 @@ html, body {
 
 .btn-whatWeDo {
   text-align: center;
-  margin-top: 105px; }
+  padding: 105px 0; }
 
 .first-line {
   margin-bottom: 85px; }
@@ -116,6 +107,69 @@ html, body {
   .text .text-content {
     color: #969591;
     font-size: 18px; }
+
+.carousel {
+  padding-top: 100px;
+  /*
+  .arrow-left, .arrow-right{
+    position: relative;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+  }*/ }
+  .carousel .slider.img-center {
+    position: relative; }
+  .carousel .slider {
+    float: left;
+    width: 449px;
+    text-align: center;
+    color: white; }
+    .carousel .slider .img-center-text {
+      position: absolute;
+      left: 0;
+      top: 70px; }
+      .carousel .slider .img-center-text p {
+        padding-bottom: 20px; }
+  .carousel .slider.filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 337px;
+    background-color: rgba(94, 94, 94, 0.5); }
+
+.about-as {
+  clear: both;
+  background: transparent url("../images/Layer-15.jpg") left top no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 115px 0; }
+  .about-as h1 {
+    color: white;
+    margin-bottom: 35px; }
+  .about-as .text-descriotion {
+    color: #969591;
+    padding: 0 320px 70px 320px; }
+  .about-as .col-1 .cadre .nom-avatar {
+    margin: 20px 0;
+    color: white; }
+  .about-as .col-1 .cadre .description {
+    color: #969591;
+    padding: 0 10px; }
+  .about-as .watch-more {
+    clear: both;
+    padding-top: 105px; }
+
+.map {
+  width: 100%;
+  height: 595px; }
+
+.text-info {
+  color: #969591;
+  font-size: 18px;
+  padding: 55px 320px 0 320px;
+  text-align: center;
+  line-height: 35px; }
 
 .btn-degrade {
   background: linear-gradient(to bottom right, #49007c, #c00085);
@@ -157,3 +211,19 @@ html, body {
 .contenaire {
   width: 85%;
   margin: auto; }
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+.main-menu-ul {
+  margin: 12px;
+  padding: 0;
+  list-style-type: none;
+  float: right; }
+  .main-menu-ul li {
+    display: inline-block;
+    padding: 0 15px; }
+    .main-menu-ul li a {
+      font-size: 18px; }

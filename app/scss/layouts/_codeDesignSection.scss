@@ -1,18 +1,20 @@
 .session-design{
-	background:transparent url('../images/Layer-8.jpg') left top no-repeat;
-	background-size: 100% 100%;
 	color: white;
+	.first-img{
+		background:transparent url('../images/Layer-8.jpg') right top no-repeat;
+		background-size: 100% 100%;
+	}
 	.second-img{
 		background:transparent url('../images/Layer-7.jpg') right top no-repeat;
 		background-size: 100% 100%;
 	}
-	.contenaire{
-		height: 490px;
-	}
 	.bloc-contenu-design{
-	  margin-top: 145px;
+		padding: 140px 0;
 	}
-	.bloc-contenu-design P{
-	  margin-bottom: 35px;
+	.col-left P, .col-left  h2, .col-left  a{
+	  margin: 0 50px 35px 100px;
+	}
+	.col-right P, .col-right  h2, .col-right  a{
+	  margin: 0 100px 35px 0;
 	}
 }

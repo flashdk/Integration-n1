@@ -1,0 +1,30 @@
+.about-as{
+  clear: both;
+  background:transparent url('../images/Layer-15.jpg') left top no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 115px 0;
+  h1{
+    color: white;
+    margin-bottom: 35px;
+  }
+  .text-descriotion{
+    color: $couleur-gris;
+    padding: 0 320px 70px 320px;
+  }
+  .container-cadre{
+    //padding-bottom: 30px;
+  }
+  .col-1 .cadre .nom-avatar{
+    margin: 20px 0;
+    color: white;
+  }
+  .col-1 .cadre .description{
+    color: $couleur-gris;
+    padding: 0 10px;
+  }
+  .watch-more{
+    clear: both;
+    padding-top: 105px;
+  }
+}
