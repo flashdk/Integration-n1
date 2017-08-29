@@ -17,4 +17,10 @@
 	.col-right P, .col-right  h2, .col-right  a{
 	  margin: 0 100px 35px 0;
 	}
+	.col-left p, .col-right p{
+		line-height: 2;
+	}
+}
+.col-left .left-align{
+	margin: 0 32px;
 }

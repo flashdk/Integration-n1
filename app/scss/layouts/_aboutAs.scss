@@ -1,5 +1,6 @@
 .about-as{
   clear: both;
+  font-size: $fs18;
   background:transparent url('../images/Layer-15.jpg') left top no-repeat;
   background-size: 100% 100%;
   text-align: center;
@@ -8,9 +9,12 @@
     color: white;
     margin-bottom: 35px;
   }
+  p{
+    line-height: 1.6;
+  }
   .text-descriotion{
     color: $couleur-gris;
-    padding: 0 320px 70px 320px;
+    padding: 0 460px 70px 460px;
   }
   .container-cadre{
     //padding-bottom: 30px;
@@ -22,6 +26,7 @@
   .col-1 .cadre .description{
     color: $couleur-gris;
     padding: 0 10px;
+    line-height: 1.2;
   }
   .watch-more{
     clear: both;

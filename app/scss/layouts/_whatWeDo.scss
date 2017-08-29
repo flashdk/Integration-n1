@@ -11,6 +11,12 @@
     float: right;
   }
 }
+.icon-content.left-icon-align{
+  width: 9%;
+}
+.icon-content.right-icon-align{
+  width: 18%;
+}
 .btn-whatWeDo{
   text-align: center;
   padding: 105px 0;
@@ -26,5 +32,6 @@
   .text-content{
      color: $couleur-gris;
      font-size: $fs18;
+    line-height: 1.6;
    }
 }
